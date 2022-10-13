@@ -1,0 +1,24 @@
+{
+  "name": "video-downloader",
+  "version": "1.0.0",
+  "description": "A tool to download videos via CLI using NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danie1net0/video-downloader-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "video-downloader"
+  ],
+  "author": "Daniel Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danie1net0/video-downloader-cli/issues"
+  },
+  "homepage": "https://github.com/danie1net0/video-downloader-cli#readme"
+}
