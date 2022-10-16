@@ -41,7 +41,7 @@
     "ytdl-core": "^4.11.2"
   },
   "bin": {
-    "video-down": "disc/index.js"
+    "video-down": "dist/index.js"
   },
   "preferGlobal": true
 }
