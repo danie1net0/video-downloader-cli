@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { YoutubeDownloader } from './youtube-downloader.js';
 
 try {

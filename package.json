@@ -1,8 +1,9 @@
 {
-  "name": "video-downloader",
+  "name": "video-downloader-cli",
   "version": "1.0.0",
   "description": "A tool to download videos via CLI using NodeJS.",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "cli": "ts-node --esm src/index.ts",
@@ -17,14 +18,16 @@
   "keywords": [
     "cli",
     "tool",
-    "video-downloader"
+    "video-downloader",
+    "youtube"
   ],
   "author": "Daniel Neto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danie1net0/video-downloader-cli/issues"
+    "url": "https://github.com/danie1net0/video-downloader-cli/issues",
+    "email": "daniel@danielneto.dev.br"
   },
-  "homepage": "https://github.com/danie1net0/video-downloader-cli#readme",
+  "homepage": "https://www.npmjs.com/package/video-downloader-cli",
   "devDependencies": {
     "@types/node": "^18.8.5",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
@@ -36,5 +39,9 @@
   },
   "dependencies": {
     "ytdl-core": "^4.11.2"
-  }
+  },
+  "bin": {
+    "video-down": "disc/index.js"
+  },
+  "preferGlobal": true
 }
