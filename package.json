@@ -5,8 +5,8 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "cli": "npm run build && node dist/index.js",
-    "build": "rimraf ./dist && tsc",
+    "cli": "ts-node --esm src/index.ts",
+    "build": "rimraf ./dist && tsc --removeComments",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .ts --fix"
   },
