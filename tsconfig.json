@@ -2,15 +2,16 @@
   "compilerOptions": {
     "target": "ES2022",
     "lib": ["ES2021"],
-    "module": "commonjs",
+    "module": "NodeNext",
     "rootDir": "src",
     "resolveJsonModule": true,
+    "moduleResolution": "NodeNext",
     "allowJs": true,
     "outDir": "dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitAny": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
   }
 }

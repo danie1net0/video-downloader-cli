@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A tool to download videos via CLI using NodeJS.",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
     "cli": "npm run build && node dist/index.js",
     "build": "rimraf ./dist && tsc",
