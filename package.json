@@ -1,6 +1,6 @@
 {
   "name": "video-downloader-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tool to download videos via CLI using NodeJS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
